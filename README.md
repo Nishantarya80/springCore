@@ -1,2 +1,0 @@
-# springCore
-Spring Practices
