@@ -1,0 +1,39 @@
+package com.nishant.spring.SpringCore.refType;
+
+public class Scores {
+
+	private Double maths;
+	private Double phy;
+	private Double chem;
+
+	public Double getMaths() {
+		return maths;
+	}
+
+	public void setMaths(Double maths) {
+		this.maths = maths;
+	}
+
+	public Double getPhy() {
+		return phy;
+	}
+
+	public void setPhy(Double phy) {
+		this.phy = phy;
+	}
+
+	public Double getChem() {
+		return chem;
+	}
+
+	public void setChem(Double chem) {
+		this.chem = chem;
+	}
+
+	@Override
+	public String toString() {
+		return "Scores [maths=" + maths + ", phy=" + phy + ", chem=" + chem + "]";
+	}
+	
+
+}
